@@ -12,7 +12,7 @@ import android.view.ViewGroup;
  * A simple {@link Fragment} subclass.
  */
 public class ChatMainFragment extends Fragment {
-
+    //Tambah komentar
 
     public ChatMainFragment() {
         // Required empty public constructor

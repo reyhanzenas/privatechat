@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "144465203288",
+    "firebase_url": "https://zenus-54738.firebaseio.com",
+    "project_id": "zenus-54738",
+    "storage_bucket": "zenus-54738.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144465203288:android:d062c050b0a2b638",
+        "android_client_info": {
+          "package_name": "com.zenas.user.zenus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144465203288-i848otdja5u9ubdlott02u6mi0h3mst2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zenas.user.zenus",
+            "certificate_hash": "18a61a585dcf55000113c529b9abd6b24c1dc30b"
+          }
+        },
+        {
+          "client_id": "144465203288-6s5bfin6p03pg3ha0cpuv56o3d5rcgcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0J_YL9jUEEDEXcMDNP2ctIYxHMTl9OQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144465203288-6s5bfin6p03pg3ha0cpuv56o3d5rcgcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

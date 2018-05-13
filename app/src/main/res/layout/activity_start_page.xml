@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startpage"
+    tools:context="com.zenas.user.zenus.StartPageActivity">
+
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:padding="15dp"
+        android:text="Sign Up"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="438dp"
+        android:layout_marginBottom="173dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/sign_in_button"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="15dp"
+        android:text="Sign In"
+        android:textColor="@color/colorAccent"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="492dp"
+        android:layout_marginTop="63dp"
+        android:layout_alignTop="@+id/sign_up_button"
+        android:layout_alignEnd="@+id/sign_up_button"
+        android:layout_marginEnd="9dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="509dp"
+        android:layout_alignBaseline="@+id/sign_in_button"
+        android:layout_alignBottom="@+id/sign_in_button"
+        android:layout_alignStart="@+id/sign_up_button"
+        android:layout_marginStart="9dp" />
+</RelativeLayout>
